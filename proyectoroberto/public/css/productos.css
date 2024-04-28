@@ -1,0 +1,173 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+.product-list table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.product-list th,
+.product-list td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-list th {
+  background-color: #f2f2f2;
+}
+
+.product-list img {
+  max-width: 50px;
+  height: auto;
+}
+
+footer {
+  background-color: #0E1120;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+tr:first-child {
+  background-color: #FFD700;
+}
+
+.product {
+  background-color: #FFD700;
+}
+
+.product-table th {
+  background-color: #0E1120;
+  color: snow;
+}
+
+.product-table td {
+  background-color: #d58534;
+  color: black;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pagination-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  text-decoration: none;
+  color: #d58534;
+  padding: 12px 20px;
+  border-radius: 26px;
+  margin: 3px 2px;
+}
+
+.pagination-link:hover {
+  color: #d58534;
+}
+
+.pagination-link.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  background-color: #0E1120;
+  color: #d58534;
+  padding: 12px 20px;
+  border-radius: 26px;
+  margin: 3px 2px;
+}
+
+.hidden-button {
+  visibility: hidden;
+}
+
+.visible-button {
+  visibility: visible;
+}
+
+.pagination-ellipsis {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 0 2px;
+  padding: 8px 0;
+  color: #0E1120;
+  font-size: 22px;
+}
+
+.pagination-ellipsis.hide {
+  visibility: hidden;
+}
+
+.table-container {
+  text-align: center;
+}
+
+.hidden-ellipsis {
+  visibility: hidden;
+}
+
+form {
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #d58534;
+  border-radius: 25px;
+}
+
+p.go-home {
+  display: inline-block;
+}
+
+p.go-home a {
+  color: #d58534;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p.go-home a:hover {
+  color: #d58534;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #d58534;
+}

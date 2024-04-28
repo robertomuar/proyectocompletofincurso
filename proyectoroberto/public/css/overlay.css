@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: snow;
+    align-items: center;
+    justify-content: center;
+}
+
+.okresult {
+    color: green;
+    font-size: 2rem;
+}
+
+.errorresult {
+    color: red;
+    font-size: 2rem;
+}

@@ -1,0 +1,40 @@
+header {
+    color: green;
+    display: flex;
+}
+
+header .mission {
+    flex: 6;
+}
+
+header .logo {
+    flex: 1;
+}
+
+header .search {
+    flex: 2;
+}
+
+header .login {
+    flex: 1;
+}
+
+header .mission p {
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.hiddenD {
+    display: none !important;
+}
+
+.hiddenV {
+    visibility: hidden !important;
+}
